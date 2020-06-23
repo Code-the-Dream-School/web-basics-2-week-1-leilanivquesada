@@ -37,7 +37,7 @@ console.log(name);
 // TODO: ADD CODE HERE
 let firstName = "Leilani";
 let lastName = "Quesada";
-console.log(firstName + " " + lastName);
+console.log(`${firstName} ${lastName}`);
 
 /* Challenge #3
  * Calculate the total price rounded to two decimals
@@ -110,8 +110,8 @@ console.log(myFunction());
  */
 
 // TODO: ADD CODE HERE
-myFunction = () => "here is my random string for this function";
-console.log(myFunction());
+myArrowFunction = () => "here is my random string for this function";
+console.log(myArrowFunction());
 
 /* Challenge #7
  * Create a function that accepts a string argument and returns it in all uppercase
@@ -126,7 +126,7 @@ console.log(myFunction());
  */
 
 // TODO: ADD CODE HERE
-stringToUpper = (str) => str.toUpperCase();
+const stringToUpper = (str) => str.toUpperCase();
 console.log(stringToUpper("leilani"));
 
 
@@ -146,10 +146,8 @@ console.log(stringToUpper("leilani"));
  */
 
 // TODO: ADD CODE HERE
-multiplyByTwo = (number) => number * 2;
+const multiplyByTwo = (number) => number * 2;
 let num1 = multiplyByTwo(1);
 let num2 = multiplyByTwo(5);
 let num3 = multiplyByTwo(10);
-console.log(num1);
-console.log(num2);
-console.log(num3)
+console.log(num1, num2, num3);
